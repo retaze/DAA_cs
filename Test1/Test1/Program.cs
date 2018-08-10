@@ -6,8 +6,13 @@ namespace Test1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            int eingabe;
+            Console.WriteLine("Eingabe:");
+            eingabe = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(eingabe);
+
         }
+
+
     }
 }
