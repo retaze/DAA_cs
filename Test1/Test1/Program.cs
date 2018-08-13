@@ -4,7 +4,7 @@ namespace Test1
 {
     class Program
     {
-        static void test(string[] args)
+        static void Main(string[] args)
         {
             int eingabe;
             Console.WriteLine("Zahl eingeben:");
