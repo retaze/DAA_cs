@@ -4,18 +4,8 @@ using System.Text;
 
 namespace Test1
 {
-    internal class Class1
-    {
-        static void Main(string[] args)
-        {
-            CPerson person = new CPerson();
-            person.SetName();
-            person.SchreibeName();
 
-        }
-    }
-
-    class CPerson
+    class Class1
     {
         private string name;
 
@@ -29,6 +19,12 @@ namespace Test1
             Console.WriteLine(name);
             Console.WriteLine();
         }
+
+        public string GibName()
+        {
+            return (name);
+        }
+
     }
 
 }
