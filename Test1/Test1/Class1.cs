@@ -11,7 +11,7 @@ namespace Test1
 
         public void SetName()
         {
-            name = "Kaiser";
+            name = "Lars ist Chef";
         }
 
         public void SchreibeName()

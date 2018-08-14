@@ -13,8 +13,8 @@ namespace Test1
 
             person.SetName();
             einName = person.GibName();
-            Console.WriteLine(einName);
-            //person.SchreibeName();
+            //Console.WriteLine(einName);
+            person.SchreibeName();
 
         }
     }
