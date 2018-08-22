@@ -15,11 +15,21 @@ namespace DatenTypen
 
             int wert3, wert4, wert5;
 
-            double d1 = 3.5;
+            double d1 = 333.5;
             double d2 = 1.337;
             double ergebnis = d1 / d2;
 
-            Console.WriteLine("Ergebniss ist "+ergebnis);
+            float f1 = 1.337f;
+
+            string meinName = "Lars";
+            string nachricht = "Mein Name ist " + meinName;
+            int laengeDesStrings = nachricht.Length;
+            string allesGrossgeschrieben = nachricht.ToUpper();
+            string allesKleinGeschrieben = nachricht.ToLower();
+
+            Console.WriteLine(allesKleinGeschrieben);
+            Console.WriteLine(allesGrossgeschrieben);
+            Console.WriteLine(nachricht + " ist {0} Zeichen lang", laengeDesStrings);
             Console.ReadKey();
         }
     }
