@@ -25,6 +25,7 @@ namespace ImpliziteUndExpliziteKonvertierung
 
 
             Console.WriteLine(myString2);
+            Console.WriteLine(myInt);
             Console.ReadKey();
         }
     }
