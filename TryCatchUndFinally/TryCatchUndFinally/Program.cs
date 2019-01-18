@@ -6,8 +6,11 @@ namespace TryCatchUndFinally
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            Console.WriteLine("Bitte trage eine Zahl ein");
+            string userInput = Console.ReadLine();
+
+            int userInputAsInt = int.Parse(userInput);
+
         }
     }
 }
