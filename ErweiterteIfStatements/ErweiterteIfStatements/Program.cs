@@ -18,12 +18,24 @@ namespace ErweiterteIfStatements
             {
                 stateOfMatter = "fest";
             }
+            else if (temperatur > 100)
+            {
+                stateOfMatter = "gasförmig";
+            }
             else
             {
                 stateOfMatter = "flüssig";
             }
+            
 
             Console.WriteLine("Aggregatszustand ist "+stateOfMatter);
+
+
+            temperatur += 130;
+            stateOfMatter = temperatur < 0 ? "fest" : (temperatur < 100 ? "flüssig" : "gasförmig");
+            Console.WriteLine("Aggregatszustand ist " + stateOfMatter);
+
+
 
             Console.ReadKey();
         }
