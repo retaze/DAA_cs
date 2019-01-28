@@ -20,6 +20,12 @@ namespace ErsteKlasse
             Human Martina = new Human("Martina", "Müller", "grün");
             Martina.IntroduceMyself();
 
+            Human Frank = new Human("Frank", "Martinez", 13);
+            Frank.IntroduceMyself();
+
+            Human Sissy = new Human("Sissy", "DieMissy");
+            Sissy.IntroduceMyself();
+
             Human unbekannterMensch = new Human();
             unbekannterMensch.IntroduceMyself();
 
