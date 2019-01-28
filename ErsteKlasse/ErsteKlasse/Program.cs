@@ -8,13 +8,20 @@ namespace ErsteKlasse
         {
     
 
-            Human lars = new Human("Lars", "Gruber","Braun",31);           
+            Human lars = new Human("Lars", "Gruber","braun",31);           
             lars.IntroduceMyself();
 
-            Human franz = new Human("Franz", "Heide","Schwarz",59);            
+            Human franz = new Human("Franz", "Heide","schwarz",59);            
             franz.IntroduceMyself();
-        
-     
+
+            Human amalia = new Human("Amalia", "Panjuta", "blau", 1);
+            amalia.IntroduceMyself();
+
+            Human Martina = new Human("Martina", "Müller", "grün");
+            Martina.IntroduceMyself();
+
+            Human unbekannterMensch = new Human();
+            unbekannterMensch.IntroduceMyself();
 
             Console.ReadKey();
                     
