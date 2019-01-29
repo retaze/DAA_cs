@@ -17,14 +17,14 @@ namespace ErsteKlasse
             Human amalia = new Human("Amalia", "Panjuta", "blau", 1);
             amalia.IntroduceMyself();
 
-            Human Martina = new Human("Martina", "Müller", "grün");
-            Martina.IntroduceMyself();
+            Human martina = new Human("Martina", "Müller", "grün");
+            martina.IntroduceMyself();
 
-            Human Frank = new Human("Frank", "Martinez", 13);
-            Frank.IntroduceMyself();
+            Human frank = new Human("Frank", "Martinez", 13);
+            frank.IntroduceMyself();
 
-            Human Sissy = new Human("Sissy", "DieMissy");
-            Sissy.IntroduceMyself();
+            Human sissy = new Human("Sissy", "DieMissy");
+            sissy.IntroduceMyself();
 
             Human unbekannterMensch = new Human();
             unbekannterMensch.IntroduceMyself();
