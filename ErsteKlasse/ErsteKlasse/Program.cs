@@ -6,8 +6,6 @@ namespace ErsteKlasse
     {
         static void Main(string[] args)
         {
-    
-
             Human lars = new Human("Lars", "Gruber","braun",31);           
             lars.IntroduceMyself();
 
@@ -29,11 +27,7 @@ namespace ErsteKlasse
             Human unbekannterMensch = new Human();
             unbekannterMensch.IntroduceMyself();
 
-            Console.ReadKey();
-                    
-
-
-
+            Console.ReadKey();                
         }
     }
 }
